@@ -12,7 +12,9 @@ import Stack from "@mui/material/Stack";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
 import * as React from "react";
+import { useNavigate } from "react-router-dom";
 import Header from "../../components/Header";
+import { logOut } from "../../services/authService";
 
 function Copyright() {
   return (
@@ -32,10 +34,16 @@ const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const theme = createTheme();
 
 export default function Home() {
+  let navigate = useNavigate();
+
+  const logOutHandler = () => {
+    logOut(navigate);
+  };
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Header />
+      <Header text={"Home"} logOut={logOutHandler} />
       <main>
         {/* Hero unit */}
         <Box
