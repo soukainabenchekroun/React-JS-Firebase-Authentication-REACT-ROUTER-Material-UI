@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "./components/home";
-import SignIn from "./components/signIn";
-import SignUp from "./components/signUp";
+import Home from "./features/home";
+import SignIn from "./features/signIn";
+import SignUp from "./features/signUp";
 import * as React from "react";
 
 function App() {
