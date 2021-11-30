@@ -1,3 +1,16 @@
+# Video Youtube
+ 
+- React JS / Firebase Authentication / REACT ROUTER / Material UI: Password Authentication: https://www.youtube.com/watch?v=CrxoRqAuNfc&list=PLR3s_XeSc1kP0WC_0GbyFBNVIi2vNhH2Q
+
+# Dependencies :
+
+- `npm install @mui/material`
+- `npm install @mui/material @emotion/react @emotion/styled`
+- `npm install @mui/material @mui/styled-engine-sc styled-components`
+- `npm i react-router-dom`
+- `npm install firebase`
+- `npm install firebaseui --save`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
