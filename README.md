@@ -1,12 +1,12 @@
 # Video Youtube
- 
-- React JS / Firebase Authentication / REACT ROUTER / Material UI: Password Authentication: https://www.youtube.com/watch?v=CrxoRqAuNfc&list=PLR3s_XeSc1kP0WC_0GbyFBNVIi2vNhH2Q
+
+- React JS / Firebase Authentication / REACT ROUTER / Material UI: Password Authentication: <https://www.youtube.com/watch?v=CrxoRqAuNfc&list=PLR3s_XeSc1kP0WC_0GbyFBNVIi2vNhH2Q>
 
 In this video we create a new account by passing the new user's email address and password to createUserWithEmailAndPassword, when a user signs in to your app, pass the user's email address and password to signInWithEmailAndPassword to log in then we use signOut to Log out
 
-Firebase Authentication docummentation : https://firebase.google.com/docs/auth
+Firebase Authentication docummentation : <https://firebase.google.com/docs/auth>
 
-# Dependencies :
+# Dependencies
 
 - `npm install @mui/material`
 - `npm install @mui/material @emotion/react @emotion/styled`
